@@ -1,60 +1,79 @@
+html {
+
+  background-color: #6b3939;
+}
 .main {
   position: relative;
   margin: 0;
   padding: 0;
 }
-.triangle div {
-  position: absolute;
-  width: 0;
-  height: 0;
-}
-.triangle-topright div {
+.triangle div{
   border-top: 100px solid rgb(223, 15, 15);
   border-left: 100px solid transparent;
 }
+.hold {
+  position: absolute;
+  top: 220px;
+  left: 45.6%;
+}
 .triangle-topright-1 {
   transform: rotate(675deg);
-  margin: 223px 773px;
+  position: absolute;
+  right: -25px;
+  top: 0px;
 }
 .triangle-topright-2 {
   transform: rotate(135deg);
-  margin: 226px 773px;
+  position: absolute;
+  top: 9px;
+  right: -25px;
 }
 .triangle-topright-3 {
   transform: rotate(225deg);
-  margin: 150px 694px;
+  position: absolute;
+  right: -102px;
+  top: -77px;
+
 }
 .triangle-topright-4 {
   transform: rotate(45deg);
-  margin: 150px 699px;
+  position: absolute;
+  right: -108px;
+  top: -77px;
 }
 .triangle-topright-5 {
   transform: rotate(135deg);
-  margin: 228px 620px;
+  position: absolute;
+  left: 85px;
+  top: 9px;
 }
 .triangle-topright-6 {
   transform: rotate(675deg);
-  margin: 223px 620px;
+  position: absolute;
+  top: 0px;
+  right: -185px;
 }
 .triangle-topright-7 {
   transform: rotate(225deg);
-  margin: 300px 695px;
+  position: absolute;
+  right: -102px;
+  top: 86px;
 }
 .triangle-topright-8 {
   transform: rotate(45deg); 
-  margin: 300px 700px;
+  position: absolute;
+  right: -108px;
+  top: 86px;
+
 }
 .eye {
   width: 100px;
   height: 100px;
-  background: rgb(248, 246, 246);
   position: absolute;
-  top: 285px;
-  left: 49.2%;
-  transform: translate(-50%,-50%);
+  top: 4px;
+  left: 4px;
   border-radius: 75% 70%;
   overflow: hidden;
-  
 }
 @keyframes mymove {
   50% {height: 100%;}
@@ -86,44 +105,41 @@ z-index: 2;
 
 }
 .square {
+  position: absolute;
   width: 110px;
   height: 110px;
   background: rgb(12, 12, 12);
-  position: absolute;
-  top: 220px;left: 45.6%;
   transform: rotate(45deg);
 }
 .small-triangle {
-  width: 0;
-  height: 0;
   border-top: 20px solid transparent;
   border-left: 30px solid rgb(255, 255, 255);
   border-bottom: 20px solid transparent;
   position: absolute;
-  top: 256px;left: 39%;
+  top: 35px;
+  left: -103px;
 }
 .small-triangle-2 {
-  width: 0;
-  height: 0;
   border-top: 20px solid transparent;
   border-right: 30px solid rgb(255, 255, 255);
   border-bottom: 20px solid transparent;
   position: absolute;
-  top: 256px;right: 41%;
+  top: 35px;
+  left: 175px;
 }
 .small-triangle-3 {
-  width: 0;
-  height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 30px solid rgb(0, 0, 0);
   position: absolute;
-  top: 390px;left: 47.9%;
+  top: 177px;
+  left: 35px;
 }
-.small-topright-4 {
-  width: 0;
-  height: 0;
+.small-triangle-4 {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 30px solid rgb(0, 0, 0);
+  border-top: 30px solid rgb(0, 0, 0);
+  position: absolute;
+  top: -98px;
+  left: 35px;
 }
